@@ -1,18 +1,5 @@
-# Appwee
-peewee wrapper with simple QoL changes
-## Installation
-```
-python -m pip install appwee
-```
-## Quickstart
-```python
-import appwee
-app = appwee.App(appwee.SqliteDatabase("example.db"))
-class ExampleModel(app.Model):
-    it_is_just = appwee.IntegerField()
-    like_normal_peewee = appwee.BlobField()
+# The project has moved to [codeberg](https://codeberg.org/highghlow/appwee)
+- [Where?](https://codeberg.org/highghlow/appwee/)
+- [Why?](https://sfconservancy.org/GiveUpGitHub/)
 
-if __name__ == "__main__":
-    app.init()
-```
-See [peewee's documentation](https://docs.peewee-orm.com) for more information
+![image](https://github.com/user-attachments/assets/45d80320-cb3c-452b-a59d-135d294d061a)
